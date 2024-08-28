@@ -7,8 +7,9 @@
 }
 
 body {
-  max-width: 1440px;
+  max-width: 1800px;
   overflow-x: hidden;
+  margin: 0 auto;
 }
 .break {
   word-break: break-all;
@@ -36,6 +37,7 @@ a {
 .container {
   width: 90vw;
   margin: 0 auto;
+  max-width: 1800px;
 }
 h2 {
   font-family: 'Ibarra Real Nova', serif;
@@ -483,9 +485,11 @@ h1 {
   }
   .fixed__container {
     width: 90vw;
+    max-width: 1800px;
   }
   .fixed__content {
     width: 90vw;
+    max-width: 1800px;
   }
 }
 /* ------------Tabs----------------- */
@@ -493,6 +497,7 @@ h1 {
 .shop {
   width: 90vw;
   margin: 40px auto;
+  max-width: 1800px;
 }
 .tabs__nav {
   display: flex;
@@ -609,6 +614,7 @@ h1 {
 .contact-container {
   margin: 40px auto;
   width: 90vw;
+  max-width: 1800px;
   min-height: 0;
   background: center / cover no-repeat url('../img/bg-contact-us.png');
 }
@@ -776,6 +782,7 @@ iframe {
 /* -----About us------ */
 .about__container {
   width: 100vw;
+  max-width: 1800px;
   display: flex;
   justify-content: center;
   overflow: hidden !important;
@@ -830,6 +837,7 @@ iframe {
 /* ----------------Testimonials slider------- */
 .testimonials__container {
   width: 90vw;
+  max-width: 1800px;
 }
 .testimonials__slider {
   width: 100%;
@@ -840,6 +848,7 @@ iframe {
 .testimonials {
   margin: 0 auto;
   width: 90vw;
+  max-width: 1800px;
   display: flex;
   justify-content: flex-start;
   overflow-x: auto;
@@ -957,6 +966,8 @@ iframe {
 .slider__container {
   width: 100vw;
   margin-top: -4px;
+  max-width: 1800px;
+  overflow-x: hidden;
 }
 .slick-slider {
   width: 100vw;
